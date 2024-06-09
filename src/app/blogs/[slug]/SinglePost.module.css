@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+.detailContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: var(--text);
+}
+
+.title {
+  font-size: 56px;
+}
+
+.detailDesc {
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .container {
+    text-align: center;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+}

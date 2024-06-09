@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  color: var(--bgSoft);
+  font-weight: bold;
+}
+
+.footerRights {
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}

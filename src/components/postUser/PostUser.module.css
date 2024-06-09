@@ -1,0 +1,33 @@
+.profileInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.profileImgContainer {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profileImg {
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.profileDetails {
+  display: flex;
+  gap: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.details > h5 {
+  color: var(--bgSoft);
+}
