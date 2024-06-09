@@ -45,7 +45,6 @@ export const deletePost = async (formData) => {
 };
 
 export async function addUser(prevState, formData) {
-  console.log("add user form data", formData);
   const { username, email, password, img, isAdmin } =
     Object.fromEntries(formData);
 
